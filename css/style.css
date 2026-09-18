@@ -254,6 +254,44 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 var(--gutter); }
   margin: 0;
 }
 
+.text-link {
+  color: var(--teal-500);
+  text-underline-offset: 3px;
+}
+
+.text-link:hover { color: var(--teal-400); }
+
+.contact-info {
+  max-width: var(--measure);
+  margin: 0;
+}
+
+.contact-info__row {
+  display: flex;
+  gap: 20px;
+  padding: 18px 0;
+  border-top: 1px solid var(--navy-700);
+}
+
+.contact-info__row:last-child { border-bottom: 1px solid var(--navy-700); }
+
+.contact-info dt {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy-500);
+  width: 120px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.contact-info dd {
+  margin: 0;
+  font-size: 18px;
+  color: var(--ink);
+}
+
 .footnote-ref a, .footnote-back {
   color: var(--gold-500);
   text-decoration: none;
