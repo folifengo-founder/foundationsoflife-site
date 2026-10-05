@@ -236,6 +236,14 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 var(--gutter); }
   margin: 0;
 }
 
+.pillar-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pillar-link:hover .pillar__title { color: var(--teal-500); }
+
 .thesis { padding: 56px 0 40px; max-width: var(--measure); }
 
 .thesis__statement {
