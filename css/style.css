@@ -468,3 +468,12 @@ a:focus-visible {
   outline: 2px solid var(--sun-500);
   outline-offset: 3px;
 }
+
+.thesis__body--lead {
+  font-size: clamp(20px, 2.2vw, 24px);
+  line-height: 1.55;
+  color: var(--ink);
+}
+.thesis__body--lead + .thesis__statement {
+  margin-top: 32px;
+}
