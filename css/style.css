@@ -496,7 +496,16 @@ a:focus-visible {
   display: flex;
   justify-content: center;
   padding: 40px 24px;
-  background: var(--forest-900);
+  background: transparent;
+}
+.plate__frame--portrait {
+  border: 0;
+  background: transparent;
+}
+.plate__frame--portrait .plate__caption {
+  border-top: 0;
+  background: transparent;
+  text-align: center;
 }
 .plate__portrait img {
   width: clamp(200px, 34vw, 320px);
