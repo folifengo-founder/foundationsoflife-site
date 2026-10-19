@@ -491,16 +491,15 @@ a:focus-visible {
   border: 0;
 }
 
-/* Founder portrait: plain photo on the page, no frame */
+/* Founder portrait: same treatment as the board photos */
 .plate--portrait { padding: 8px 0 48px; }
-.founder-portrait { margin: 0; width: clamp(200px, 34vw, 300px); }
+.founder-portrait { margin: 0; width: clamp(160px, 24vw, 240px); }
 .founder-portrait img {
   width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 50%;
-  border: 0;
+  border: 1px solid var(--forest-700);
   display: block;
 }
 .founder-portrait__caption {
