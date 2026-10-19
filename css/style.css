@@ -550,4 +550,5 @@ a:focus-visible {
 @media (max-width: 640px) {
   .member { grid-template-columns: 1fr; gap: 20px; }
   .member__photo { max-width: 240px; }
+  .founder-portrait { width: min(100%, 240px); }
 }
