@@ -491,30 +491,23 @@ a:focus-visible {
   border: 0;
 }
 
-/* Founder portrait inside the plate frame */
-.plate__portrait {
-  display: flex;
-  justify-content: center;
-  padding: 40px 24px;
-  background: transparent;
-}
-.plate__frame--portrait {
-  border: 0;
-  background: transparent;
-}
-.plate__frame--portrait .plate__caption {
-  border-top: 0;
-  background: transparent;
-  text-align: center;
-}
-.plate__portrait img {
-  width: clamp(200px, 34vw, 320px);
+/* Founder portrait: plain photo on the page, no frame */
+.plate--portrait { padding: 8px 0 48px; }
+.founder-portrait { margin: 0; width: clamp(200px, 34vw, 300px); }
+.founder-portrait img {
+  width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
   border: 0;
   display: block;
+}
+.founder-portrait__caption {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 14px 0 0;
 }
 
 /* Board members: photo, role, name, bio */
